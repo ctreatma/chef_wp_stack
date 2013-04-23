@@ -1,0 +1,18 @@
+#!/usr/bin/env ruby
+#^syntax detection
+
+site 'http://community.opscode.com/api/v1'
+
+cookbook "apache2", :git => 'https://github.com/opscode-cookbooks/apache2.git'
+cookbook "apt", :git => "https://github.com/opscode-cookbooks/apt"
+cookbook "build-essential", :git => "https://github.com/opscode-cookbooks/build-essential"
+cookbook "chef-client", :git => "https://github.com/opscode-cookbooks/chef-client"
+cookbook "git", :git => "https://github.com/opscode-cookbooks/git"
+cookbook "logrotate", :git => "https://github.com/opscode-cookbooks/logrotate"
+cookbook "mysql", :git => "https://github.com/opscode-cookbooks/mysql"
+cookbook "ntp", :git => "https://github.com/opscode-cookbooks/ntp"
+cookbook "php", :git => 'https://github.com/opscode-cookbooks/php.git'
+cookbook "sudo", :git => "https://github.com/opscode-cookbooks/sudo"
+cookbook "ubuntu", :git => "https://github.com/opscode-cookbooks/ubuntu.git"
+cookbook "xfs", :git => "https://github.com/opscode-cookbooks/xfs"
+cookbook "kw-cloud-sites", :path => 'local/cookbooks/kw-cloud-sites'
